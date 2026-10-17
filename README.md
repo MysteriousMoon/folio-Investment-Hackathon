@@ -51,7 +51,7 @@ Backend modules remain at the root to preserve imports and the `app:app` deploym
 
 ## Configuration
 
-Edit `.env` and restart the service. The example contains no credentials. Add your own Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey). The default uses Google’s official native API at `https://generativelanguage.googleapis.com/v1beta`; no third-party endpoint is configured. This hackathon repository includes a blank `.env` alongside `.env.example`; fill in your credentials locally before running and avoid committing real keys.
+Edit `.env` and restart the service. The example contains no credentials. Add your own Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey). The default uses Google’s official native API at `https://generativelanguage.googleapis.com/v1beta`; no third-party endpoint is configured. Copy `.env.example` to `.env` and fill in your credentials locally before running. `.env` is ignored by Git; commit only the credential-free `.env.example`.
 
 | Variable | Purpose |
 | --- | --- |
