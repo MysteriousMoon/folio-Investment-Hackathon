@@ -1,0 +1,23 @@
+.rich-text{white-space:normal;overflow-wrap:anywhere;min-width:0}
+.rich-text-fallback{white-space:pre-wrap}
+.rich-text>:first-child{margin-top:0}.rich-text>:last-child{margin-bottom:0}
+.rich-text p{margin:0 0 12px;line-height:1.9}
+.rich-text h1,.rich-text h2,.rich-text h3,.rich-text h4,.rich-text h5,.rich-text h6{font-weight:600;line-height:1.5;margin:22px 0 10px;color:#273950}
+.rich-text h1{font-size:21px}.rich-text h2{font-size:18px}.rich-text h3{font-size:15px}.rich-text h4,.rich-text h5,.rich-text h6{font-size:13px}
+.rich-text ul,.rich-text ol{padding-left:23px;margin:10px 0 15px}.rich-text li{padding-left:2px;margin:5px 0}.rich-text li>p{margin-bottom:5px}
+.rich-text strong{font-weight:600}.rich-text a{color:#365acb;text-decoration:underline;text-underline-offset:3px}
+.rich-text blockquote{margin:15px 0;padding:8px 14px;border-left:3px solid #b8c9ed;background:#f5f8fd;color:#6a7e9c}.rich-text blockquote p:last-child{margin:0}
+.rich-text code{font:12px/1.7 ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;background:#edf2fa;border-radius:4px;padding:2px 5px;color:#34558b;white-space:break-spaces}
+.rich-text pre{margin:14px 0;padding:14px 16px;background:#f1f5fb;border:1px solid #e3eaf5;border-radius:8px;overflow-x:auto;max-width:100%;tab-size:2}
+.rich-text pre code{padding:0;border:0;background:none;white-space:pre;color:#344d70}
+.rich-text hr{border:0;border-top:1px solid #e0e7f2;margin:20px 0}
+.rich-table-scroll{max-width:100%;overflow-x:auto;margin:14px 0;border:1px solid #e1e8f2;border-radius:7px}
+.rich-text table{min-width:0;width:100%;font-size:12px;line-height:1.7;white-space:normal}
+.rich-text th,.rich-text td{padding:9px 11px;min-width:75px;border-bottom:1px solid #e5ebf4;color:#536b8d}
+.rich-text th{font-weight:600;background:#f2f6fc;color:#3b557c}.rich-text tr:last-child td{border-bottom:0}
+.rich-text .katex{font-size:1.08em}.rich-text .katex-display{margin:15px 0;overflow-x:auto;overflow-y:hidden;padding:6px 1px;max-width:100%}
+.rich-text .katex-display>.katex{white-space:nowrap}.rich-text .katex-error{color:inherit!important;white-space:pre-wrap;font-family:ui-monospace,monospace;font-size:12px}
+.rich-text .math-slot{max-width:100%}.user.rich-text{font-size:13px}
+#report-content .rich-text p{font-size:12px;color:#607591}#report-content .rich-text h3{margin-top:18px}
+@media(max-width:760px){.bubble{margin-left:0}.rich-text table{font-size:11px}.rich-text pre{padding:12px}.rich-text .katex{font-size:1em}}
+@media print{.rich-text pre{white-space:pre-wrap}.rich-text pre code{white-space:pre-wrap}.rich-table-scroll,.rich-text .katex-display{overflow:visible}}

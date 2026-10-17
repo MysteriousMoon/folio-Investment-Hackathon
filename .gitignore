@@ -1,0 +1,34 @@
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+/build/
+/dist/
+
+# Local app data, logs, and deployment metadata
+instance/
+*.sqlite*
+*.db
+*.log
+.openai/
+
+# Editors and macOS
+.DS_Store
+.idea/
+.vscode/
+*~
