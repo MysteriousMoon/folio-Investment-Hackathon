@@ -56,7 +56,8 @@ Edit `.env` and restart the service. The example contains no credentials. Add yo
 | Variable | Purpose |
 | --- | --- |
 | `GEMINI_API_KEY` | Server-side Gemini key; optional for local fallback. |
-| `GEMINI_API_FORMAT` | Defaults to `google` for the official native Gemini API. |
+| `GEMINI_BASE_URL` | Full API base URL; defaults to `https://generativelanguage.googleapis.com/v1beta` when unset or blank. Custom URLs override it for both streaming and planning. |
+| `GEMINI_API_FORMAT` | `google` (default) for native Gemini requests; `openai` for an OpenAI-compatible API. For a gateway, set its base URL (e.g. `https://gateway.example/v1`) and matching format. |
 | `GEMINI_MODEL` | Defaults to `gemini-2.5-flash`; choose a model available to your account. |
 | `FRED_API_KEY` | Optional FRED key. |
 | `SECRET_KEY` | Stable random deployment key; otherwise `instance/secret.key` is used. |
