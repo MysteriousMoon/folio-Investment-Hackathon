@@ -47,11 +47,11 @@ folio-studio/
 
 Legacy risk, market, and currency identifiers are normalized to English when loaded; saved conversation text is preserved.
 
-Backend modules remain at the root to preserve imports and the `app:app` deployment entry point. `archive/prototype/` is a reference implementation, not the active Flask frontend. Local `.venv/`, `instance/`, caches, and `.env` are not source artifacts.
+Backend modules remain at the root to preserve imports and the `app:app` deployment entry point. `archive/prototype/` is a reference implementation, not the active Flask frontend. Local `.venv/`, `instance/`, and caches are not source artifacts.
 
 ## Configuration
 
-Edit `.env` and restart the service. The example contains no credentials. Add your own Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey). The default uses Google’s official native API at `https://generativelanguage.googleapis.com/v1beta`; no third-party endpoint is configured. Keep `.env` private and commit only `.env.example`.
+Edit `.env` and restart the service. The example contains no credentials. Add your own Gemini API key from [Google AI Studio](https://aistudio.google.com/apikey). The default uses Google’s official native API at `https://generativelanguage.googleapis.com/v1beta`; no third-party endpoint is configured. This hackathon repository includes a blank `.env` alongside `.env.example`; fill in your credentials locally before running and avoid committing real keys.
 
 | Variable | Purpose |
 | --- | --- |

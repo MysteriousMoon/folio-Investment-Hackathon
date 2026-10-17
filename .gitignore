@@ -1,5 +1,4 @@
-# Local secrets and environment overrides
-.env
+# Local environment overrides (.env is included for this hackathon)
 .env.*
 !.env.example
 *.pem
